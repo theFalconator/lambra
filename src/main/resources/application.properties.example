@@ -1,0 +1,9 @@
+spring.datasource.url=jdbc:postgresql://postgrestest.ceigr73a3ulf.us-east-2.rds.amazonaws.com:5432/awstest
+spring.datasource.username=
+spring.datasource.password=
+
+spring.jpa.database=postgresql
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.generate-ddl=true
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
